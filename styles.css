@@ -2,18 +2,33 @@
  font-family: Roboto, sans-serif;
 }
 
+img { 
+    height: 200px;
+    width: 200px ;
+}
+
+#imgHero {
+    height: 300px;
+    width: 500px;
+}
+
+h1 {
+    margin: 0;
+}
+
 .header {
 color: #ADADAD;
 background-color: #1f2937;
 display: flex;
 flex-direction: row;
+padding: auto;
 }
 
 .headerLogo{
 color: white;
 font-weight: 600;
 font-size: larger;
-margin-left: 80px;
+margin-left: 120px;
 margin-right: auto;
 }
 
@@ -22,3 +37,32 @@ display: flex;
 margin-right: 200px;
 gap: 20px; 
 }
+
+.hero {
+background-color: #1f2937;
+color: white;
+margin-top: auto;
+padding: 60px;
+display: flex;
+justify-content: center;
+gap: 100px;
+padding-right: 100px;
+align-items: center;
+}
+
+#secondaryText {
+    color: #ADADAD;
+    font-size: 18px;
+}
+
+#buttonHero {
+background-color: #3382F6;
+color: white;
+border: #3382F6;
+height: 30px;
+width: 110px;
+box-sizing: border-box;
+border-radius: 8px;
+font-size: medium;
+}
+
