@@ -112,4 +112,48 @@ margin-bottom: 80px;
    margin-left: 900px;
 }
 
+.encart {
+    color: white;
+    background-color: #3382F6;
+    display: flex;
+    margin: 40px 230px ;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+}
 
+#cta {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+#textEncart {
+    padding-left: 80px;
+}
+
+#buttonCta { 
+    height: 30px;
+    width: 110px;
+    box-sizing: border-box;
+    margin-left: 160px;
+    border: 1px solid white;
+    background-color: #3382F6;
+    color: white;
+    border-radius: 10px;
+}
+
+#subtext {
+color:#d0c6c6;
+}
+
+.footer {
+background-color: #1f2937;
+color: white;
+display: flex;
+justify-content: center;
+padding: 20px;
+}
+#textFooter {
+    margin: 0;
+}
